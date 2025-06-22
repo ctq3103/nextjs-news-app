@@ -38,18 +38,18 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 # User Stories for News App 
 
-- [ ] Replace current manual article tracking with a central system  
+<!-- - [ ] Replace current manual article tracking with a central system   -->
 - [ ] Add a public homepage showing top headlines and categories  
-- [ ] Add a passwordless login for team members  
-- [ ] Show a dashboard with all current draft and published articles  
+- [x] Add a passwordless login for team members  
+- [ ] Show a dashboard with all current published articles  
 - [ ] Provide easy navigation & search for articles and authors  
-- [ ] Provide a logout option  
-- [ ] Require users to log in at least once per week  
-- [ ] Allow instant removal of user access when needed  
+- [x] Provide a logout option  
+- [x] Require users to log in at least once per week  
+<!-- - [ ] Allow instant removal of user access when needed   -->
 - [ ] Articles have an ID, title, content, author, tags, and status  
 - [ ] Articles are either DRAFT or PUBLISHED  
 - [ ] Articles are assigned to specific authors  
-- [ ] Users can have Author, Editor, or Admin roles  
+- [x] Users can have Author, Editor, or Admin roles  
 - [ ] All users can create and view articles  
 - [ ] Authors can edit only their own draft articles  
 - [ ] Editors and Admins can view, edit, and publish all articles  

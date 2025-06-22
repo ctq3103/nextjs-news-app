@@ -67,6 +67,8 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { ModeToggle } from '@/components/ModeToggle';
+import { LogoutLink } from '@kinde-oss/kinde-auth-nextjs/components';
+
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -95,7 +97,7 @@ export function Header() {
             <User className="w-5 h-5 text-foreground" />
           </Button>
           <Button variant="ghost" size="icon" title="Logout">
-            <LogOut className="w-5 h-5 text-foreground" />
+            <LogoutLink><LogOut className="w-5 h-5 text-foreground" /></LogoutLink>                  
           </Button>
           <ModeToggle />
 

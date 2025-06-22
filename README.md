@@ -36,7 +36,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 
-# User Stories for News App (Simplified Roles)
+# User Stories for News App 
 
 - [ ] Replace current manual article tracking with a central system  
 - [ ] Add a public homepage showing top headlines and categories  
@@ -56,6 +56,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - [ ] Only Admins can delete articles or manage user access  
 - [ ] Public visitors can view only published articles  
 - [ ] App should be optimized for desktop, but usable on mobile/tablet  
-- [ ] Include Light / Dark mode toggle for reading comfort  
+- [x] Include Light / Dark mode toggle for reading comfort  
 - [ ] Support team should respond quickly to publishing or login issues  
 

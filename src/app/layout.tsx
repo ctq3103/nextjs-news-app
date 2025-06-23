@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-// import { Toaster } from "@/components/ui/toaster";
+import { Toaster } from "@/components/ui/toaster";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   applicationName: "NewsVibe",
   keywords: ["news", "tech", "daily updates", "news app", "modern news"],
   authors: [{ name: "NewsVibe Team" }],
+};
+
+export const viewport = {
   themeColor: "#0f172a",
 };
 
@@ -37,7 +40,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
-          {/* <Toaster /> */}
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>

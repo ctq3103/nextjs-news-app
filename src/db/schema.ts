@@ -36,7 +36,7 @@ export const posts = pgTable("posts", {
   updatedAt: timestamp("updated_at").notNull().defaultNow().$onUpdate(() => new Date()),
 });
 
-// 🔗 Relations
+// Relations
 export const authorsRelations = relations(authors, ({ many }) => ({
   posts: many(posts),
 }));

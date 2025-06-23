@@ -41,20 +41,21 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 <!-- - [ ] Replace current manual article tracking with a central system   -->
 - [ ] Add a public homepage showing top headlines and categories  
 - [x] Add a passwordless login for team members  
-- [ ] Show a dashboard with all current published articles  
-- [ ] Provide easy navigation & search for articles and authors  
+- [ ] Show a dashboard with all current published posts  
+- [ ] Provide easy navigation & search for posts and authors  
 - [x] Provide a logout option  
 - [x] Require users to log in at least once per week  
 <!-- - [ ] Allow instant removal of user access when needed   -->
-- [ ] Articles have an ID, title, content, author, tags, and status  
-- [ ] Articles are either DRAFT or PUBLISHED  
-- [ ] Articles are assigned to specific authors  
+- [x] Authors have an ID, first name, last name, email, bio, avatar URL, active status, and timestamps
+- [x] Posts have an ID, title, slug, content, category, thumbnail URL, and timestamps  
+- [x] Posts are either DRAFT or PUBLISHED  
+- [x] Posts are assigned to specific authors  
 - [x] Users can have Author, Editor, or Admin roles  
-- [ ] All users can create and view articles  
-- [ ] Authors can edit only their own draft articles  
-- [ ] Editors and Admins can view, edit, and publish all articles  
-- [ ] Only Admins can delete articles or manage user access  
-- [ ] Public visitors can view only published articles  
+- [ ] All users can create and view posts  
+- [ ] Authors can edit only their own draft posts  
+- [ ] Editors and Admins can view, edit, and publish all posts  
+- [ ] Only Admins can delete posts or manage user access  
+- [ ] Public visitors can view only published posts  
 - [ ] App should be optimized for desktop, but usable on mobile/tablet  
 - [x] Include Light / Dark mode toggle for reading comfort  
 - [ ] Support team should respond quickly to publishing or login issues  
